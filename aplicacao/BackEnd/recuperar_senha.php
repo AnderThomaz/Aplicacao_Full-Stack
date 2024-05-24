@@ -40,8 +40,6 @@ if ($result->num_rows > 0) {
     header("Location: ../esqueci-senha?erro=email_invalido");
 }
 
-$_SESSION['emailUser'] = $email;
-
 $stmt->close();
 $conn->close();
 ?>

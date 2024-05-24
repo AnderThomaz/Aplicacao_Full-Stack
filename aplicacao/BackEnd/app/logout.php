@@ -2,7 +2,7 @@
 session_start();
 
 require_once 'conexao.php';
-require_once 'deshbord.php';
+require_once 'deshboard.php';
 
 // Destruir todas as variáveis de sessão
 session_destroy();

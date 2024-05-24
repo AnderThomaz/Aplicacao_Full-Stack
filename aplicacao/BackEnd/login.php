@@ -27,7 +27,7 @@ $stmt->fetch();
 if ($hashSenha !== null && password_verify($senha, $hashSenha)) {
 
         $_SESSION['emailUser'] = $email;
-        header("Location: ../app/deshbord   ");
+        header("Location: ../app/deshboard ");
         exit();
 
 }else{

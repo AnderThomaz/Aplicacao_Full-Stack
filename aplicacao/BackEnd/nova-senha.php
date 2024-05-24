@@ -5,6 +5,8 @@ session_start();
 // entrada da senha do html
 $Nchave = $_POST['Nchave'];
 
+$_SESSION['Nchave'] = $Nchave;
+
 
 
 if (isset($_SESSION['emailUser'])) { // captura da varivael php de outro arquivo ja salvo
@@ -18,6 +20,8 @@ if (isset($_SESSION['emailUser'])) { // captura da varivael php de outro arquivo
 if ($Nchave === $chave_string) {
 
     header("location: ../nova-senha?return=alterar-senha");
+    unset($_SESSION['ChaveRecu']);
+    unset($chave_string);
     exit();
 
 

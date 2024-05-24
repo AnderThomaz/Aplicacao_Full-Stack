@@ -44,11 +44,6 @@ $idUser = $_SESSION['idUser'];
 
 
 $tipoTransi = 1;
-
-echo $valor;
-echo $descricao;
-echo $date;
-
 // No banco dados foi criado um regra que todas as transiçoes do tipo despesas signifaca o numero 1 e 0 para recebimento
 
 // 0 = Recebimento

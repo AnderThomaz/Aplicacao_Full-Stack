@@ -1,3 +1,5 @@
+
+
 var abrirMenu = document.getElementById('iconmenu');
 var fecharMenu = document.getElementById('closemenu');
 var menu = document.querySelector('.menu');
@@ -33,5 +35,4 @@ function AutoCloseMenu(event) {
 
 fecharMenu.onclick = closedmenu;
 abrirMenu.onclick = toggleMenu;
-
 

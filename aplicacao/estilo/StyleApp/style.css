@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+/* Color Theme Swatches in Hex */
+.Treasurana---Geocaching-App-1-hex { color: #1D594E; }
+.Treasurana---Geocaching-App-2-hex { color: #F2CB05; }
+.Treasurana---Geocaching-App-3-hex { color: #F29F05; }
+.Treasurana---Geocaching-App-4-hex { color: #F28705; }
+.Treasurana---Geocaching-App-5-hex { color: #F23030; }
+
+/* Color Theme Swatches in RGBA */
+.Treasurana---Geocaching-App-1-rgba { color: rgba(29, 89, 78, 1); }
+.Treasurana---Geocaching-App-2-rgba { color: rgba(242, 202, 4, 1); }
+.Treasurana---Geocaching-App-3-rgba { color: rgba(242, 159, 4, 1); }
+.Treasurana---Geocaching-App-4-rgba { color: rgba(242, 135, 4, 1); }
+.Treasurana---Geocaching-App-5-rgba { color: rgba(242, 48, 48, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Treasurana---Geocaching-App-1-hsla { color: hsla(168, 50, 23, 1); }
+.Treasurana---Geocaching-App-2-hsla { color: hsla(50, 96, 48, 1); }
+.Treasurana---Geocaching-App-3-hsla { color: hsla(39, 96, 48, 1); }
+.Treasurana---Geocaching-App-4-hsla { color: hsla(33, 96, 48, 1); }
+.Treasurana---Geocaching-App-5-hsla { color: hsla(0, 88, 56, 1); }
+
 
 * {
     font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -131,7 +152,7 @@ menu a:hover {
 
 #configuracoes {
     position: absolute;
-    right: 35px;
+    right: 50px;
 }
 
 #header_menu {
@@ -173,6 +194,7 @@ menu a:hover {
     max-width: 370px;
     height: 100vh;
     background-color: #03a696 ;
+
     position: fixed;
     top: 0px;
     left: -372px;
@@ -181,12 +203,7 @@ menu a:hover {
     overflow-x: scroll;
     scrollbar-width: none;
     z-index: 999;
-    
-
-}
-
-#menu.aberto {
-    left: 0; 
+    box-shadow: 5px -0 5px rgba(63, 63, 63, 0.089);
     
 }
 
@@ -267,7 +284,7 @@ main #dastbord #saldo {
 
 #grafico {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -277,8 +294,10 @@ main #dastbord #saldo {
     
 }
 
+
+
 #infor {
-    width: 90%;
+    width: 45%;
     max-width: 1500px;
     height: auto;
     min-height: 500px;
@@ -305,9 +324,17 @@ main #dastbord #saldo {
     color: #999;
 }
 
+#Valores{
+    margin-top: 50px;
+    width: 27%;
+    background: white;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
 
 #SelectMes {
-
     position: absolute;
     right: 130px;
     width: auto;
@@ -319,7 +346,7 @@ main #dastbord #saldo {
     color: black;
     margin: auto;
     align-items: center;
-    
+    cursor: pointer;
     padding: 0px 20px;
     padding-left: 30px;
 
@@ -346,6 +373,7 @@ select {
 #titulos {
     display: flex;
     width: 100%;
+    height: 45px;
     background-color: #03a696;
     color: white;
     overflow: hidden;
@@ -355,10 +383,7 @@ select {
 }
 
 #dtRece {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    
+    margin: auto;
 }
 
 #titulos p {
@@ -371,6 +396,15 @@ select {
     margin: 10px;
 }
 
+.item0:hover {
+    background-color: #0250592a;
+    
+}
+
+.item1:hover {
+    background-color: #0250592a;
+}
+
 .item0 {
     display: flex;
     justify-content: space-between;
@@ -378,6 +412,7 @@ select {
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+    cursor: pointer;
 }
 
 .item1 {
@@ -385,7 +420,7 @@ select {
     justify-content: space-between;
     margin-bottom: 10px;
     padding: 10px;
-
+    cursor: pointer;
     border-radius: 5px;
     align-items: center;
 }
@@ -401,10 +436,10 @@ select {
 }
 
 .data {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #999;
+        position: absolute;
+        left: 38%;
+        transform: translateX(-50%);
+        color: #999;
 
 }
 
@@ -481,4 +516,79 @@ button {
 
 button a {
     text-decoration: none;
+} 
+
+
+#detalhe_lanca {
+    position: fixed;
+    right: -450px;
+    width: 60%;
+    max-width: 450px;
+    transition: right ease 0.6s;
+    top: 0;
+    height: 100vh;
+    box-shadow: -5px -0 5px rgba(63, 63, 63, 0.089);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+#detalhes  {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    justify-items: center;
+
+}
+#detalhe_lanca  p {
+margin: 25px 45px;
+margin-bottom: 0;
+color: #025159;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+.informacoes {
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f18e;
+    width: 85%;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+#detalhes  button {
+    
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#detalhe_lanca  span {
+    position: absolute;
+    right: 50;
+    top: 25;
+    scale: 120%;
+    cursor: pointer;
+}
+
+#detalhe_lanca span:hover {
+    scale: 125%;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+#detalhes iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.id_transacao {
+    display: none;
 }

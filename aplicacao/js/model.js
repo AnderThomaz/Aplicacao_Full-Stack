@@ -32,3 +32,4 @@ function exibirModal() {
 
 // Chame a função exibirModal para aplicar a lógica desejada
 exibirModal();
+

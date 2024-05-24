@@ -1,11 +1,6 @@
 <?php 
-
 require_once 'conexao.php';
-
 session_start();
-
-
-
 if (isset($_SESSION['emailUser'])) {
     $emailUser = $_SESSION['emailUser'];
     
@@ -15,15 +10,11 @@ if (isset($_SESSION['emailUser'])) {
 }
 
 $date = $_POST['data'];
-
-
 // Normalizar Data para o bando de dados receber
 $date = date("Y-m-d", strtotime(str_replace('/', '-', $date)));
 $valor =  $_POST['valor'];
 $descricao = $_POST['Desc'];
 $idUser = $_SESSION['idUser'];
-
-
 
 function Normalizar_valor($valor) {
     // Remover todas as pontuações
@@ -36,9 +27,7 @@ function Normalizar_valor($valor) {
     return $valor;
 }
 
-
 $valorParaBanco = Normalizar_valor($valor);
-
 
 $cadRecebimento = $conn->prepare("INSERT INTO `transacoes` ( `user_id`, `valor`, `data_pagamento`, `descricao`) VALUES (?,?,?,?)");
 

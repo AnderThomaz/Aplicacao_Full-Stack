@@ -1,7 +1,6 @@
 <?php 
 require_once '../BackEnd/favicon.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,7 +24,7 @@ require_once '../BackEnd/favicon.php';
         <h2>Recebimento cadastrado</h2>
           
         <button><a href="recebimento">Novo Lançamento</a></button>
-        <button><a href="deshbord">Acessar Deshbord</a></button>
+        <button><a href="deshboard">Acessar Deshboard</a></button>
         </div>
     </div>
     <script src="../js/model.js"></script>
@@ -53,8 +52,8 @@ require_once '../BackEnd/favicon.php';
             
         </div>
         <ul>
-                <a href="deshbord">
-                <li><img src="../../estilo/StyleApp/icon/dashboard_FILL1_wght200_GRAD0_opsz24.svg" alt=""> Dashbord</a>
+                <a href="deshboard">
+                <li><img src="../../estilo/StyleApp/icon/dashboard_FILL1_wght200_GRAD0_opsz24.svg" alt=""> Deshboard</a>
                 <a href="recebimento">
                 <li><img src="../../estilo/StyleApp/icon/paid_FILL1_wght600_GRAD0_opsz24.svg" alt="">Receita</a>
                 <a href="despesas">

@@ -46,9 +46,12 @@
 
 @media (max-width: 1050px) {
 
+
     #dastbord .valores p {
         font-size: 18px;
     }
+
+
 
 
     header h1 {
@@ -92,7 +95,7 @@
 
 
     main #infor {
-        width: 100%;
+        width: 90%;
         margin: 30px 10px;
         font-size: 13px;
 
@@ -152,7 +155,7 @@
     }
 
     #fotoPerfil {
-        scale: 50%;
+        scale: 70%;
     } 
 
     #dados {
@@ -161,7 +164,7 @@
 
     #grafico {
         height: auto;
-        min-height: 400px;
+        min-height: 800px;
         background: #e4e4e4;
     }
 
@@ -215,6 +218,53 @@
 
     #dastbord2  {
         height: 10px;
+    }
+
+    #inform {
+        width: 100%;
+    }
+
+    #inform .dados {
+        width: 80%;
+        margin: 10px  auto;
+    }
+
+    .Fundo .model {
+        width: 90%;
+
+    } 
+
+    #inform p{
+        width: auto;
+    }
+
+    #infor {
+        position: absolute;
+        top: 800px;
+    }
+
+    #Valores {
+        position: absolute;
+        top: 600px;
+        width: 90%;
+        height: auto;
+        min-height: 200px;
+        margin: 0;
+    }
+
+    #detalhe_lanca p {
+        position: relative;
+        right: -18px;
+        margin: 25px;
+        margin-bottom: 0;
+    }
+
+    #detalhe_lanca span {
+        right: 40px;
+    }
+
+    #detalhe_lanca {
+        width: 100%;
     }
 }
 

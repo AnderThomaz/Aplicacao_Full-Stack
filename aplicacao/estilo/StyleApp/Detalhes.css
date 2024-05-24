@@ -1,0 +1,187 @@
+#detalhes button {
+    display: block;
+    text-align: center;
+}
+
+#detalhes button:hover {
+    background: #03a696;
+
+}
+#detalhes h1 {
+    color: rgb(223, 223, 223);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: -17px;
+    margin-bottom: 200px;
+    position: relative;
+    right: -40px;
+    z-index: 999;
+}
+
+span {
+    position: absolute;
+    right: 50;
+    top: 25;
+    scale: 120%;
+    cursor: pointer;
+}
+
+span:hover {
+    scale: 125%;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+html, body {
+    background-color: white;
+}
+
+#buttom {
+    display: flex;
+    margin: 0 20px;
+}
+    
+#detalhes .titulo {
+    font-weight: 600;
+}
+
+
+#detalhes label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+#detalhes input {
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    border: none;
+    background: #e4e4e4;
+    padding: 10px 20px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+
+}
+input:focus {
+    outline: none;
+    
+}
+
+.atualizardados {
+    align-items: center;
+    height: 50px;
+    padding: 0;
+    margin: 15px auto;
+    padding-left: 15px;
+}
+#SelecDespesas {
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    border: none;
+    background: #e4e4e4;
+    padding: 10px 20px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+
+    
+
+
+}
+
+#SelecDespesas option{
+    color: #303030;
+    background-color: #e4e4e4;
+
+}
+
+#SelecDespesas optgroup{
+    color: #303030;
+    background-color: #e4e4e4;
+
+    
+}
+
+
+
+#sobre {
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    border: none;
+    background: #e4e4e4;
+    padding: 10px 20px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+
+}
+
+#sobre option{
+    color: #303030;
+    background-color: e4e4e4 ;
+
+}
+
+#sobre optgroup label{
+    text-align: left;
+    color: #303030;
+    background-color: #e4e4e4;
+
+    
+}
+
+#detalhesAtalizar {
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+#detalhesAtalizar form {
+    width: 100%;
+}
+
+#detalhes select {
+    color: #303030;;
+    font-size: 14px;
+}   
+
+#detalhes input {
+    font-size: 14px;
+}   
+ 
+#ConfirExclusao {
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    
+}
+
+#ConfirExclusao h1{
+    color: #303030;
+    display: block;
+    width: 92%;
+    font-size:14px;
+    margin: 20px auto;
+}
+#ConfirExclusao > div { 
+    width: 100%;
+}
+#ConfirExclusao button {
+    margin: auto;
+}
+
+#ConfirExclusao > div > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

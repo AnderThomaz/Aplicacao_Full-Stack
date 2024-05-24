@@ -45,8 +45,8 @@ require_once '../BackEnd/favicon.php';
             </span>
         </div>
         <ul>
-                <a href="deshbord">
-                <li><img src="../../estilo/StyleApp/icon/dashboard_FILL1_wght200_GRAD0_opsz24.svg" alt=""> Dashbord</a>
+                <a href="deshboard">
+                <li><img src="../../estilo/StyleApp/icon/dashboard_FILL1_wght200_GRAD0_opsz24.svg" alt=""> Dashboard</a>
                 <a href="recebimento">
                 <li><img src="../../estilo/StyleApp/icon/paid_FILL1_wght600_GRAD0_opsz24.svg" alt="">Receita</a>
                 <a href="despesas">
